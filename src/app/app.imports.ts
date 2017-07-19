@@ -28,7 +28,7 @@ if (ENV === 'development' && !AOT &&
 
 export const APP_IMPORTS = [
   EffectsModule.run(UserEffects),
-  // MaterialModule,
+  MaterialModule,
   ReactiveFormsModule,
   RouterStoreModule.connectRouter(),
   StoreModule.provideStore(rootReducer),
