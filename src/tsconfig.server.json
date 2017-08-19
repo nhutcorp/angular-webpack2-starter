@@ -4,6 +4,7 @@
     "entryModule": "./app/server.app.module#ServerAppModule"
   },
   "exclude": [
-    "./server.aot.ts"
+    "./server.aot.ts",
+    "./main.browser.aot.ts"
   ]
 }

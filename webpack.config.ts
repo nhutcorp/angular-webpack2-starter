@@ -259,7 +259,7 @@ const clientConfig = function webpackConfig(): WebpackConfig {
     };
   } else {
     config.entry = {
-      main: root('./src/main.browser.ts')
+      main: AOT ? root('./src/main.browser.aot.ts') : root('./src/main.browser.ts')
     };
   }
 
