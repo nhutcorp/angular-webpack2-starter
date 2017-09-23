@@ -3,7 +3,10 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { MaterialModule } from '@angular/material';
+import {
+  MdButtonModule, MdCardModule, MdIconModule, MdInputModule,
+  MdToolbarModule, MdListModule, MdSidenavModule
+} from '@angular/material';
 
 import {
   BrowserTransferStateModule
@@ -22,7 +25,13 @@ describe('App Component', () => {
     TestBed.configureTestingModule({
       imports: [
         BrowserTransferStateModule,
-        MaterialModule,
+        MdButtonModule,
+        MdCardModule,
+        MdIconModule,
+        MdInputModule,
+        MdToolbarModule,
+        MdListModule,
+        MdSidenavModule,
         ReactiveFormsModule,
         RouterTestingModule.withRoutes(routes),
         StoreDevToolsModule

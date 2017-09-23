@@ -1,6 +1,9 @@
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, PreloadAllModules } from '@angular/router';
-import { MaterialModule } from '@angular/material';
+import {
+  MdButtonModule, MdCardModule, MdIconModule, MdInputModule,
+  MdToolbarModule, MdListModule, MdSidenavModule
+} from '@angular/material';
 
 import { EffectsModule } from '@ngrx/effects';
 import { RouterStoreModule } from '@ngrx/router-store';
@@ -28,7 +31,13 @@ if (ENV === 'development' && !AOT &&
 
 export const APP_IMPORTS = [
   EffectsModule.run(UserEffects),
-  MaterialModule,
+  MdButtonModule,
+  MdCardModule,
+  MdIconModule,
+  MdInputModule,
+  MdToolbarModule,
+  MdListModule,
+  MdSidenavModule,
   ReactiveFormsModule,
   RouterStoreModule.connectRouter(),
   StoreModule.provideStore(rootReducer),

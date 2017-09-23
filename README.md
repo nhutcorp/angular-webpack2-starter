@@ -7,19 +7,12 @@
 ###### You can use npm, but it's recommended to use yarn as it installs a lot faster and has other benefits https://yarnpkg.com/ . Make sure you are using yarn version 0.16.0 or newer (check with 'yarn --version')
 
 ```bash
-git clone https://github.com/qdouble/angular-webpack2-starter.git
+git clone https://github.com/nhutcorp/angular-webpack2-starter.git
 cd angular-webpack2-starter
 yarn
 yarn start
 ```
 
-### [Material Branch without Universal (Server-side rendering) support](https://github.com/qdouble/angular-webpack2-starter/tree/no-universal-support)
-
-### [Bootstrap Branch](https://github.com/qdouble/angular-webpack2-starter/tree/bootstrap)
-
-### [Bootstrap and Universal Branch](https://github.com/qdouble/angular-webpack2-starter/tree/bootstrap-and-universal)
-
-### [Minimal Branch](https://github.com/qdouble/angular-webpack2-starter/tree/minimal)
 
 ## Features
 
@@ -47,10 +40,12 @@ yarn start
 * Karma/Jasmine testing
 * Protractor for E2E testing
 
-## Project Goals
+## Evolution to MEAN
 
-* The main goal is to provide an environment where you can have great dev tools and create a production application without worrying about adding a bunch of stuff yourself.
-* The goal of your design should be so that you can easily copy and paste your app folder and your constants file into to a new update of this project and have it still work. Use constants and have proper separation to make upgrades easy. If you have any suggestions on areas where this starter can be designed to make updates more easy, file an issue.
+[![Basic Mean Site template](https://nhutcorp.com/static/images/product/upload/thumb_meandemo-sendvn-com_1504855737124.png)](https://nhutcorp.com/product/mean-2-fullstack-solution-with-angular-4-and-typescript-59b0f213512c3a2f48d5ad34)
+
+Responsive site template using pure [Angular 4](https://angular.io/) and [Material Design](https://material.angular.io/) for maximum speed possible on the Web Platform purpose.
+
 
 ## Basic scripts
 
@@ -110,4 +105,4 @@ For e2e tests, use `yarn run e2e`. To run unit test and e2e test at the same tim
 
 ### License
 
-[MIT](https://github.com/qdouble/angular-webpack2-starter/blob/master/LICENSE)
+[MIT](https://github.com/nhutcorp/angular-webpack2-starter/blob/master/LICENSE)
